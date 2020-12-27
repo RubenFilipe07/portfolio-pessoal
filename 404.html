@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.05">
+    <title>Erro 404</title>
+<style>
+ h1{
+ text-align: center;
+ font-size: 100px;
+ }   
+
+ p{
+ text-align: center;
+ }
+ 
+ a{ 
+ text-decoration:none; 
+ color: gray;  
+} 
+</style>
+
+<script>
+function imprimirURL(){
+var urlAtual = window.location.href;
+document.getElementById('mensagem').innerHTML = "A solicitação " +"<a style='color:gray'>"+ urlAtual +"</a> não foi encontrada."
+
+}
+</script>
+</head>
+<body onload="imprimirURL()">
+    <h1>404</h1>
+    <p id="mensagem">A solicitação não foi encontrada. :(</p>
+    <p>  Volte para página inicial: <a href='https://rubenfilipe.me'>Rubenfilipe.me</a></p>
+</body>
+</html>
+

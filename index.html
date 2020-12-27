@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="cache-control" content="max-age=0"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <title>Rúben Filipe</title>
+    <link rel="icon" type="image" href="Imagens\icone.png">
+    <link rel="stylesheet" href="Estilo/principal.css">
+    <script src="Scripts/app.js"></script>
+    <script
+     src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-706SPC8CTW"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-706SPC8CTW');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"/>
+
+</head>
+<body>
+  
+    <div class="parent">
+        <div class="div1">
+          <img id="perfil" src="Imagens/perfil.jpg" alt="Foto de perfil">  
+        </div>
+        <div class="div2">
+          <h1 id="nome">Rúben</h1>  
+          <h1 id="sobrenome">Filipe</h1>  
+            <hr>
+
+            <table class="informacoes" id="desktop">
+                <tr>
+                    <td class="titulo" id="Elemento1">Localização</td>
+                    <td class="titulo">Contato</td>
+                    <td class="titulo">Site</td>
+                    <td class="titulo">Email</td>
+                </tr>
+                <tr>
+                    <td id="Elemento1">São Miguel do Gostoso, RN</td>
+                    <td><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank">(84) 9815-93183</a></td>
+                    <td><a href="https://rubenfilipe.me">Rubenfilipe.me</a></td>
+                    <td><a href="mailto:rubenfilipe.dev@gmail.com">Rubenfilipe.dev@gmail.com</a></td>
+                </tr>
+            </table>
+
+            <table class="informacoes" id="mobile">
+                <tr>
+                    <td class="titulo">Localização</td>
+                </tr>
+
+                <tr>
+                    <td>São Miguel do Gostoso, RN</td>
+                </tr>
+
+                <tr>
+                    <td class="titulo">Contato</td>
+                </tr>
+
+                <tr>
+                    <td><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank">(84) 9815-93183</a></td>
+                </tr>
+
+                <tr>
+                    <td class="titulo">Site</td>
+                </tr>
+
+                <tr>
+                    <td><a href="https://rubenfilipe.me">Rubenfilipe.me</a></td>
+                </tr>
+
+                <tr>
+                    <td class="titulo">Email</td>
+                </tr>
+
+                <tr>
+                    <td><a href="mailto:rubenfilipe.dev@gmail.com">Rubenfilipe.dev@gmail.com</a></td>
+                </tr>
+            </table>
+
+
+    </div>
+        <div class="div3"> 
+            <h3 class="tituloLateral">Introdução</h3>
+            <p class="subtituloLateral">Quem sou eu?</p>
+        </div>
+
+        <div class="div4">
+            <p id="apresentacao">Olá, sou Rúben Filipe, desenvolvedor front-end e acâdemico em informática nível técnico pelo IFRN - Campus João Câmara (em curso). Desde a minha infância sempre fui apaixonado por áreas de técnologia e devido a isso escolhi seguir na área. Programo desde os meus 15 anos e tenho experiência nas seguintes linguagens de programação: java, c++ e javascript , além de conhecer outras técnologias, tais como: bootstrap, html5, css3, firebase, git, mySql e prototipagem eletrônica com arduino e ESP32/8266. Além disso tenho vários conhecimentos na área de informática.</p>
+        </div>
+
+        <div class="div5">
+            <h3 class="tituloLateral">conhecimentos</h3>
+        </div>
+        
+        <div class="div6"> 
+            <div id="one" class="owl-carousel owl-theme" style="max-width: 800px;"> 
+                
+                <div class="item">
+                    <img src="Imagens/Logos/java.png" alt="Java" onmouseover="teste('Java')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/javascript.png" alt="Javascript" onmouseover="teste('Javascript')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/cplusplus.png" alt="C++" onmouseover="teste('C++')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/jquery.png" alt="jquery" onmouseover="teste('Jquery')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/mysql.png" alt="MySql" onmouseover="teste('MySql')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/html5.png" alt="Html5" onmouseover="teste('Html5')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/css3.png" alt="Css3" onmouseover="teste('Css3')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/bootstrap.png" alt="Bootstrap" onmouseover="teste('Bootstrap')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/firebase.png" alt="Firebase" onmouseover="teste('Firebase')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/git.png" alt="Git" onmouseover="teste('Git')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/github.png" alt="Github" onmouseover="teste('Github')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/arduino.png" alt="Arduino" onmouseover="teste('Arduino')" onmouseout="limpar()">
+                </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/espressif.png" alt="Espressif" onmouseover="teste('Espressif')" onmouseout="limpar()">
+                </div>
+            </div>
+            <h3 id="conhecimentos"></h3>
+        </div>
+
+        <div class="div7">
+            <h3 class="tituloLateral">Projetos</h3>
+        </div>
+
+        <div class="div8">
+          <div id="listaProjetos">
+            <h2><a href="https://github.com/RubenFilipe07/Conversor-de-moedas">&bull; Conversor de moedas</a></h2>
+            <h2><a href="https://github.com/RubenFilipe07/Car-Arduino">&bull; Carro bluetooth Arduino</a></h2>
+            <h2><a href="https://github.com/RubenFilipe07/Relogio-Javascript">&bull; Live Wallpaper de Relólio digital</a></h2>
+         </div>
+        </div>
+
+        <div class="div9">
+            <h3 class="tituloLateral">Metodologia</h3>
+          </div>
+
+          <div class="div10">
+            <p id="apresentacao">Utilizo metodologias e planejamentos otimizados que melhoram fluxo de produção através de feedback e interações, garantindo a transparência do processo para o cliente, e também sua satisfação com a solução.</p>
+         
+             <div id="metodologias">
+                <div id="two" class="owl-carousel owl-theme" style="max-width: 800px;">
+                    <div class="item">
+                        <h1>Planejamento</h1>
+                        <ul>
+                            <li>Determinar com o cliente os objetivos da solução (programa ou site)</li>
+                            <li>Escolher quais tecnologias serão usadas no projeto tendo como base as expectativas do cliente</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <h1>Controle</h1>
+                        <ul>
+                            <li>Comunicação com o cliente, a fim de que o mesmo tenha acesso ao processo de cada etapa de produção</li>
+                            <li>Feedback do cliente para verificar sua satisfação e, caso for preciso, mudar ideias conforme o processo de produção</li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <h1>Produção</h1>
+                        <ul>
+                            <li>Implementação da solução</li>
+                            <li>Testes</li>
+                            <li>Finalização da solução</li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+          
+        </div> 
+        
+
+        <div class="div11">
+            <h3 class="tituloLateral">Contatos</h3>
+         </div>
+
+        <div class="div12">
+            <hr>
+                <table class="contatos">
+                    <tr>
+                        <td class="titulo">Github</td>
+                        <td class="titulo">Email</td>
+                        <td class="titulo">Twitter</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/rubenfilipe07" target="_blank">Rubenfilipe07</a></td>
+                        <td><a href="mailto:rubenfilipe.dev@gmail.com">Rubenfilipe.dev@gmail.com</a></td>
+                        <td><a href="https://Twitter.com/rubenfilipe07" target="_blank">@Ruben_filipe07</a></td>
+                    </tr>
+                    <tr>
+                        <td class="titulo">Contato</td>
+                        <td class="titulo">Instagram</td>
+                        <td class="titulo">Telegram</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank">(84)981593183</a></td>
+                        <td><a href="https://Instagram.com/Ruben_filipe07" target="_blank">@Ruben_filipe07</a></td>
+                        <td><a href="https://telegram.me/rubenfilipe07" target="_blank">@Ruben_filipe07</a></td>
+                    </tr>
+        </div>                
+    
+     
+</body>
+</html>
+
+
+<script>
+
+    $('#one').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        300:{
+            items:4
+        },
+        650:{
+            items:5
+        }
+     }
+    });
+    
+
+    $('#two').owlCarousel({
+    loop:true,
+    margin:1,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:6000,
+    autoplayHoverPause:true,
+    items: 1
+    });
+
+
+    $('.play').on('click',function(){
+        owl.trigger('play.owl.autoplay',[1000])
+    })
+    $('.stop').on('click',function(){
+        owl.trigger('stop.owl.autoplay')
+    })
+    </script>
+
