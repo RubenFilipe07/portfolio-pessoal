@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta http-equiv="cache-control" content="max-age=0"/>
-    <meta http-equiv="cache-control" content="no-cache"/>
     <title>Rúben Filipe</title>
     <link rel="icon" type="image" href="Imagens\icone.png">
-    <link rel="stylesheet" href="Estilo/principal.css">
+    <link rel="stylesheet" href="Estilo/principal.css" id="css">
     <script src="Scripts/app.js"></script>
     <script
      src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
@@ -34,7 +32,8 @@
         <div class="div2">
           <h1 id="nome">Rúben</h1>  
           <h1 id="sobrenome">Filipe</h1>  
-            <hr>
+            
+          <hr id="hrTopo">
 
             <table class="informacoes" id="desktop">
                 <tr>
@@ -51,40 +50,16 @@
                 </tr>
             </table>
 
-            <table class="informacoes" id="mobile">
-                <tr>
-                    <td class="titulo">Localização</td>
-                </tr>
-
-                <tr>
-                    <td>São Miguel do Gostoso, RN</td>
-                </tr>
-
-                <tr>
-                    <td class="titulo">Contato</td>
-                </tr>
-
-                <tr>
-                    <td><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank">(84) 9815-93183</a></td>
-                </tr>
-
-                <tr>
-                    <td class="titulo">Site</td>
-                </tr>
-
-                <tr>
-                    <td><a href="https://rubenfilipe.me">Rubenfilipe.me</a></td>
-                </tr>
-
-                <tr>
-                    <td class="titulo">Email</td>
-                </tr>
-
-                <tr>
-                    <td><a href="mailto:rubenfilipe.dev@gmail.com">Rubenfilipe.dev@gmail.com</a></td>
-                </tr>
-            </table>
-
+            <div class="wrapper" id="mobile">
+                <div class="titulo">Localização</div>
+                <div>São Miguel do Gostoso, RN</div>
+                <div class="titulo">Contato</div>
+                <div><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank">(84) 9815-93183</a></div>
+                <div class="titulo">Site</div>
+                <div><a href="https://rubenfilipe.me">Rubenfilipe.me</a></div>
+                <div class="titulo">Email</div>
+                <div><a href="mailto:rubenfilipe.dev@gmail.com">Rubenfilipe.dev@gmail.com</a></div>
+             </div>
 
     </div>
         <div class="div3"> 
@@ -93,7 +68,7 @@
         </div>
 
         <div class="div4">
-            <p id="apresentacao">Olá, sou Rúben Filipe, desenvolvedor front-end e acâdemico em informática nível técnico pelo IFRN - Campus João Câmara (em curso). Desde a minha infância sempre fui apaixonado por áreas de técnologia e devido a isso escolhi seguir na área. Programo desde os meus 15 anos e tenho experiência nas seguintes linguagens de programação: java, c++ e javascript , além de conhecer outras técnologias, tais como: bootstrap, html5, css3, firebase, git, mySql e prototipagem eletrônica com arduino e ESP32/8266. Além disso tenho vários conhecimentos na área de informática.</p>
+            <p id="apresentacao">Sou Rúben Filipe, desenvolvedor front-end e acâdemico em informática nível técnico pelo IFRN - Campus João Câmara (em curso). Desde a minha infância sempre fui apaixonado por áreas de técnologia e devido a isso escolhi informática para cursar. Programo desde os meus 15 anos e tenho experiência nas seguintes linguagens de programação: java, c++ e javascript, além de conhecer outras técnologias, tais como: bootstrap, html5, css3, firebase, git, mySql e prototipagem eletrônica com arduino e ESP32/8266. Além disso tenho vários conhecimentos na área de informática.</p>
         </div>
 
         <div class="div5">
@@ -101,7 +76,7 @@
         </div>
         
         <div class="div6"> 
-            <div id="one" class="owl-carousel owl-theme" style="max-width: 800px;"> 
+            <div id="carousel" class="owl-carousel owl-theme"> 
                 
                 <div class="item">
                     <img src="Imagens/Logos/java.png" alt="Java" onmouseover="teste('Java')" onmouseout="limpar()">
@@ -159,63 +134,12 @@
         </div>
 
         <div class="div7">
-            <h3 class="tituloLateral">Projetos</h3>
-        </div>
-
-        <div class="div8">
-          <div id="listaProjetos">
-            <h2><a href="https://github.com/RubenFilipe07/Conversor-de-moedas">&bull; Conversor de moedas</a></h2>
-            <h2><a href="https://github.com/RubenFilipe07/Car-Arduino">&bull; Carro bluetooth Arduino</a></h2>
-            <h2><a href="https://github.com/RubenFilipe07/Relogio-Javascript">&bull; Live Wallpaper de Relólio digital</a></h2>
-         </div>
-        </div>
-
-        <div class="div9">
-            <h3 class="tituloLateral">Metodologia</h3>
-          </div>
-
-          <div class="div10">
-            <p id="apresentacao">Utilizo metodologias e planejamentos otimizados que melhoram fluxo de produção através de feedback e interações, garantindo a transparência do processo para o cliente, e também sua satisfação com a solução.</p>
-         
-             <div id="metodologias">
-                <div id="two" class="owl-carousel owl-theme" style="max-width: 800px;">
-                    <div class="item">
-                        <h1>Planejamento</h1>
-                        <ul>
-                            <li>Determinar com o cliente os objetivos da solução (programa ou site)</li>
-                            <li>Escolher quais tecnologias serão usadas no projeto tendo como base as expectativas do cliente</li>
-                        </ul>
-                    </div>
-
-                    <div class="item">
-                        <h1>Controle</h1>
-                        <ul>
-                            <li>Comunicação com o cliente, a fim de que o mesmo tenha acesso ao processo de cada etapa de produção</li>
-                            <li>Feedback do cliente para verificar sua satisfação e, caso for preciso, mudar ideias conforme o processo de produção</li>
-                        </ul>
-                    </div>
-
-                    <div class="item">
-                        <h1>Produção</h1>
-                        <ul>
-                            <li>Implementação da solução</li>
-                            <li>Testes</li>
-                            <li>Finalização da solução</li>
-                        </ul>
-                    </div>
-                </div>
-             </div>
-          
-        </div> 
-        
-
-        <div class="div11">
             <h3 class="tituloLateral">Contatos</h3>
          </div>
 
-        <div class="div12">
+        <div class="div8">
             <hr>
-                <table class="contatos">
+                <table class="contatos" id="desktop">
                     <tr>
                         <td class="titulo">Github</td>
                         <td class="titulo">Email</td>
@@ -237,7 +161,16 @@
                         <td><a href="https://telegram.me/rubenfilipe07" target="_blank">@Ruben_filipe07</a></td>
                     </tr>
         </div>                
-    
+        <div class="wrapper" id="mobile" style="padding-bottom: 25px;">
+            <div class="titulo">Localização</div>
+            <div>São Miguel do Gostoso, RN</div>
+            <div class="titulo">Contato</div>
+            <div><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank">(84) 9815-93183</a></div>
+            <div class="titulo">Site</div>
+            <div><a href="https://rubenfilipe.me">Rubenfilipe.me</a></div>
+            <div class="titulo">Email</div>
+            <div><a href="mailto:rubenfilipe.dev@gmail.com">Rubenfilipe.dev@gmail.com</a></div>
+         </div>
      
 </body>
 </html>
@@ -245,7 +178,7 @@
 
 <script>
 
-    $('#one').owlCarousel({
+    $('#carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
@@ -266,23 +199,5 @@
      }
     });
     
-
-    $('#two').owlCarousel({
-    loop:true,
-    margin:1,
-    nav:false,
-    autoplay:true,
-    autoplayTimeout:6000,
-    autoplayHoverPause:true,
-    items: 1
-    });
-
-
-    $('.play').on('click',function(){
-        owl.trigger('play.owl.autoplay',[1000])
-    })
-    $('.stop').on('click',function(){
-        owl.trigger('stop.owl.autoplay')
-    })
     </script>
 
