@@ -1,13 +1,9 @@
-function teste(title){
+function mostrarNome(title){
     document.getElementById("conhecimentos").style.opacity =  "1" 
     document.getElementById("conhecimentos").innerText =  title 
 
 }
 
-function limpar(){
+function limparNome(){
     document.getElementById("conhecimentos").style.opacity =  "0" 
-}
-
-if(screen.width <=620){
-document.getElementById("css").href = "Estilo/mobile.css"
 }

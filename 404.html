@@ -2,28 +2,44 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.05">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
     <title>Erro 404</title>
 <style>
  h1{
  text-align: center;
- font-size: 100px;
+ font-size: 10vw;
  }   
 
  p{
  text-align: center;
+ font-size: 1.3vw;
  }
  
  a{ 
  text-decoration:none; 
  color: gray;  
-} 
+ }
+
+ @media (max-width:600px){
+    h1{ 
+    font-size: 120px;
+    }  
+   
+    p{
+    font-size: 15px;
+    }
+
+  }
 </style>
 
 <script>
 function imprimirURL(){
 var urlAtual = window.location.href;
 document.getElementById('mensagem').innerHTML = "A solicitação " +"<a style='color:gray'>"+ urlAtual +"</a> não foi encontrada."
+
+ setTimeout(function(){
+ window.location = "https://rubenfilipe.me"    
+ },7000);
 
 }
 </script>
