@@ -141,11 +141,11 @@ table a:hover {
   background-color: #f8f8f8;
 }
 
-.div5, .div9, .div8 {
+.div4, .div5, .div9, .div8 {
   background-color: #fcfcfc;
 }
 
-.div4 {
-  background-color: #fcfcfc;
+.div5, .div6 {
   height: 250px;
 }
+
