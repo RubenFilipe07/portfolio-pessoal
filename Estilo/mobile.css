@@ -31,7 +31,7 @@
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
     
-    #desktop {
+    .desktop {
     display: none;
     }
     
@@ -61,7 +61,7 @@
     display: none;
     }
 
-    .wrapper div{
+    .wrapper-mobile div{
       display: grid;
       grid-template-rows: auto;
       text-align: center;
@@ -71,7 +71,7 @@
       padding: 0.7rem 0.7rem 0rem;
     }
 
-    .wrapper a, a:visited{
+    .wrapper-mobile a, a:visited{
       text-decoration: none;
       color:#868686;;
       transition: 200ms;
@@ -82,14 +82,14 @@
       color: #868686;
     }
     
-    #apresentacao{
+    .apresentacao{
      text-align: justify;
      margin: 10px auto;
      max-width: 90%;
      text-indent:30px
     }
     
-    #conhecimentos{ 
+    .nome-tecnologias{ 
      display: none;
     }
     
@@ -137,5 +137,3 @@
       grid-area: div8;
       background-color: #fdfdfd;
      }
-
-    

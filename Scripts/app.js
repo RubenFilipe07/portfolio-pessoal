@@ -1,9 +1,9 @@
 function mostrarNome(title){
-    document.getElementById("conhecimentos").style.opacity =  "1" 
-    document.getElementById("conhecimentos").innerText =  title 
+    document.querySelector(".nome-tecnologias").style.opacity =  "1" 
+    document.querySelector(".nome-tecnologias").innerText =  title 
 
 }
 
 function limparNome(){
-    document.getElementById("conhecimentos").style.opacity =  "0" 
+    document.querySelector(".nome-tecnologias").style.opacity =  "0" 
 }

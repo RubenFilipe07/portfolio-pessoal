@@ -49,7 +49,7 @@ table #Elemento1 {
   padding: 5px 10px 10px 0px;
 }
 
-#mobile {
+.mobile {
   display: none;
 }
 
@@ -93,12 +93,12 @@ table a:hover {
   margin: -10px 20% 0px 0px;
 }
 
-#apresentacao {
+.apresentacao {
   margin: 50px auto auto 10%;
   max-width: 700px;
 }
 
-#conhecimentos {
+.nome-tecnologias {
   text-align: center;
   margin-right: 15%;
   color: #727272;
