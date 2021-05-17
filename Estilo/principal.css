@@ -41,7 +41,7 @@ table td {
 
 table {
   display: flex;
-  margin-left: 110px;
+  margin-left: 120px;
   font-size: 13px;
 }
 
@@ -107,8 +107,9 @@ table a:hover {
 
 .contatos {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   color: #868686;
+  margin-left: 60px;
 }
 
 #carousel {
@@ -148,4 +149,3 @@ table a:hover {
 .div5, .div6 {
   height: 250px;
 }
-
