@@ -9,13 +9,20 @@
     <link rel="stylesheet" media="(max-width: 719px)" href="Estilo/mobile.css" />
     <meta name="author" content="Rúben Filipe de Lima Silva">
     <meta name="title" content="Rúben Filipe | Portfólio">
-    <meta name="description" content="Técnico em informática formado pelo Instituto Federal do Rio Grande do Norte (IFRN). Programo desde 2017 e tenho experiência nas seguintes linguagens de programação: Java, Javascript e C++ (com ênfase em microcontroladores), além de conhecer outras técnologias, tais como: Bootstrap, Html, Css, Spring, Firebase, Heroku, Git, banco de dados mySql e prototipagem eletrônica com arduino e ESP32/8266. Além do mais, tenho amplos conhecimentos na área de informática devido minha formação.">
+    <meta name="description" content="Técnico em informática formado pelo Instituto Federal do Rio Grande do Norte (IFRN). Programo desde 2017 e tenho experiência nas seguintes linguagens de programação: Java, Javascript e C++ (com ênfase em microcontroladores), além de conhecer outras técnologias, tais como: Html, Css, Bootstrap, Materialize Css, Spring, Firebase, Heroku, Git, banco de dados mySql e prototipagem eletrônica com arduino e ESP32/8266. Além do mais, tenho amplos conhecimentos na área de informática devido minha formação.">
     <meta property="og:site_name" content="rubenfilipe.me">
     <meta property="og:title" content="Rúben Filipe | Portfólio"/>    
-    <meta name="image" property="og:image" content="https://rubenfilipe.me/Imagens/icone.png">
+    <meta name="image" property="og:image" content="https://rubenfilipe.me/Imagens/preview.png">
     <meta property="og:type" content="website" />
     <meta name="twitter:image:src" content="rubenfilipe.me/Imagens/icone.png" />
-    <script src="Scripts/app.js"></script>
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-706SPC8CTW');
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-706SPC8CTW"></script>
 </head>
 <body>  
     <div class="grid">
@@ -28,6 +35,13 @@
             <h1 id="nome">Rúben</h1>
             <h1 id="sobrenome">Filipe</h1>
     
+             <div class="popupLinks">
+                <a href="https://www.linkedin.com/in/rubenfilipe07/" aria-label="linkedin" target="_blank" rel="noopener"><span>LinkedIn</span></a>
+                <a href="https://github.com/RubenFilipe07" aria-label="github" target="_blank" rel="noopener"><span>Github</span></a>
+                <a href="http://lattes.cnpq.br/6391662114404047" aria-label="lattes" target="_blank" rel="noopener"><span>Lattes</span></a>
+                <a href="curriculo.html" aria-label="currículo" target="_blank" rel="noopener"><span>Currículo</span></a>
+              </div>
+
             <hr>
     
             <table class="informacoes desktop">
@@ -38,7 +52,7 @@
                 </tr>
                 <tr>
                     <td id="Elemento1">Touros</td>
-                    <td><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank">(84) 9815-93183</a></td>
+                    <td><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank" rel="noopener">(84) 9815-93183</a></td>
                     <td><a href="mailto:rubenfilipe.dev@gmail.com">Rubenfilipe.dev@gmail.com</a></td>
                 </tr>
             </table>
@@ -47,27 +61,26 @@
                 <div class="titulo">Localização</div>
                 <div>Touros</div>
                 <div class="titulo">Contato</div>
-                <div><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank">(84) 9815-93183</a></div>
+                <div><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank" rel="noopener">(84) 9815-93183</a></div>
                 <div class="titulo">Email</div>
                 <div><a href="mailto:rubenfilipe.dev@gmail.com">Rubenfilipe.dev@gmail.com</a></div>
             </div>
         </div>
         
         <div class="div3">
-            <h3 class="tituloLateral">Introdução</h3>
+            <h1 class="tituloLateral">Introdução</h1>
             <p class="subtituloLateral">Quem sou eu?</p>
         </div>
     
         <div class="div4">
             <p class="apresentacao">Técnico em informática formado pelo Instituto Federal do Rio Grande do Norte (IFRN).
                 Programo desde 2017 e tenho experiência nas seguintes linguagens de programação: Java, Javascript e C++ (com
-                ênfase em microcontroladores), além de conhecer outras técnologias, tais como: Bootstrap, Html, Css, Spring,
-                Firebase, Heroku, Git, banco de dados mySql e prototipagem eletrônica com arduino e ESP32/8266. Além do
-                mais, tenho amplos conhecimentos na área de informática devido minha formação.</p>
+                ênfase em microcontroladores), além de conhecer outras técnologias, tais como: Html, Css, Bootstrap, Materialize Css, Spring,
+                Firebase, Heroku, Git, banco de dados mySql e prototipagem eletrônica com arduino e ESP32/8266.</p>
         </div>
     
         <div class="div5">
-            <h3 class="tituloLateral">conhecimentos</h3>
+            <h1 class="tituloLateral">conhecimentos</h1>
         </div>
     
         <div class="div6">
@@ -112,6 +125,11 @@
                     <img src="Imagens/Logos/bootstrap.png" alt="Bootstrap" onmouseover="mostrarNome('Bootstrap')"
                         onmouseout="limparNome()">
                 </div>
+
+                <div class="item">
+                    <img src="Imagens/Logos/materialize.png" alt="Materialize Css" onmouseover="mostrarNome('Materialize Css')"
+                        onmouseout="limparNome()">
+                </div>
     
                 <div class="item">
                     <img src="Imagens/Logos/spring.png" alt="Spring" onmouseover="mostrarNome('Spring')"
@@ -148,11 +166,11 @@
                 </div>
             </div>
 
-            <h3 class="nome-tecnologias"></h3>
+            <h1 class="nome-tecnologias"></h1>
         </div>
     
         <div class="div7">
-            <h3 class="tituloLateral">Contatos</h3>
+            <h1 class="tituloLateral">Contatos</h1>
         </div>
     
         <div class="div8">
@@ -164,40 +182,45 @@
                     <td class="titulo">Telegram</td>
                 </tr>
                 <tr>
-                    <td><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank">(84) 981593183</a></td>
+                    <td><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank" rel="noopener">(84) 981593183</a></td>
                     <td><a href="mailto:rubenfilipe.dev@gmail.com">Rubenfilipe.dev@gmail.com</a></td>
-                    <td><a href="https://telegram.me/rubenfilipe07" target="_blank">@Ruben_filipe07</a></td>
+                    <td><a href="https://telegram.me/rubenfilipe07" target="_blank" rel="noopener">Ruben_filipe07</a></td>
                 </tr>
                 <tr>
                     <td class="titulo">Linkedin</td>
                     <td class="titulo">Instagram</td>
-                    <td class="titulo">Facebook</td>
+                    <td class="titulo">Github</td>
                 </tr>
                 <tr>
                     <td><a href="https://www.linkedin.com/in/rubenfilipe07/">Rubenfilipe07</a></td>
-                    <td><a href="https://Instagram.com/Ruben_filipe07" target="_blank">@Ruben_filipe07</a></td>
-                    <td><a href="https://facebook.com/rubenfilipe07" target="_blank">Rúben Filipe</a></td>
+                    <td><a href="https://Instagram.com/Ruben_filipe07" target="_blank" rel="noopener">Ruben_filipe07</a></td>
+                    <td><a href="https://github.com/rubenfilipe07" target="_blank" rel="noopener">Rubenfilipe07</a></td>
                 </tr>
             </table>
 
-                <div class="wrapper-mobile mobile" style="padding-bottom: 25px;">
+                <div class="wrapper-mobile mobile rodape">
                     <div class="titulo">Contato</div>
-                    <div><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank">(84) 9815-93183</a></div>
+                    <div><a href="https://api.whatsapp.com/send?phone=5584981593183" target="_blank" rel="noopener">(84) 9815-93183</a></div>
                     <div class="titulo">Telegram</div>
                     <div><a href="https://t.me/ruben_filipe07">Ruben_filipe07</a></div>
+                    <div class="titulo">Instagram</div>
+                    <div><a href="https://Instagram.com/Ruben_filipe07">Ruben_filipe07</a></div>
                     <div class="titulo">Linkedin</div>
-                    <div><a href="https://www.linkedin.com/in/rubenfilipe07/" target="_blank">Rubenfilipe07</a></div>
+                    <div><a href="https://www.linkedin.com/in/rubenfilipe07/" target="_blank" rel="noopener">Rubenfilipe07</a></div>
+                    <div class="titulo">Github</div>
+                    <div><a href="https://github.com/rubenfilipe07" target="_blank" rel="noopener">Rubenfilipe07</a></div>
                     <div class="titulo">Email</div>
                     <div><a href="mailto:rubenfilipe.dev@gmail.com">Rubenfilipe.dev@gmail.com</a></div>
                 </div>
         </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
-<script src="Scripts/carousel.js"></script>
-<script src="Scripts/email.js"></script>
+<script defer src="Scripts/jquery-3.6.0.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script defer src="Scripts/carousel.js"></script>
+<script defer src="Scripts/app.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"/>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css">
 </body>
 </html>

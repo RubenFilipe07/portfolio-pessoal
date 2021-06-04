@@ -7,3 +7,5 @@ function mostrarNome(title){
 function limparNome(){
     document.querySelector(".nome-tecnologias").style.opacity =  "0" 
 }
+
+$('.owl-dots').attr('aria-hidden', 'true');
