@@ -1,188 +1,168 @@
-    body{
-    margin: 0px;
-    padding: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #ffffff;
-    }
-    
-    #perfil{
-    border-radius: 50%;
-    margin: 25px auto;
-    width: 250px;
-    display: flex;
-    }
-    
-    #nome{
-    font-size: 4rem;
-    color: #939393;
-    font-weight: 300;
-    text-align: center;
-    margin: -10px auto -10px;
-    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-    
-    #sobrenome{
-    font-size: 5.75rem;
-    color: #607d8b;
-    text-align: center;
-    margin-top: -10px;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-    
-    .desktop {
-    display: none;
-    }
-    
-    p{
-    color: #707070;
-    }
-    
-    hr{
-    display: flex;
-    margin: 20px auto 10px;
-    border: 0.1px solid rgb(212, 212, 212);
-    max-width: 95%;
-    }
-
-    #hrTopo{
-    margin: -60px auto 10px; 
-    }
-    
-    .tituloLateral{
-    color: #727272;
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    }
-    
-    .subtituloLateral{
-    display: none;
-    }
-
-    .wrapper-mobile div{
-      display: grid;
-      grid-template-rows: auto;
-      text-align: center;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      color: rgb(114, 114, 114);
-      font-size: 1rem;
-      padding: 0.7rem 0.7rem 0rem;
-    }
-
-    .wrapper-mobile a, a:visited{
-      text-decoration: none;
-      color:#707070;;
-      transition: 200ms;
-    }
-
-    .rodape{
-      padding-bottom: 25px;
-    }
-
-    .titulo{
-      font-weight: 700;
-      color: #707070;
-    }
-    
-    .apresentacao{
-     text-align: justify;
-     margin: 10px auto;
-     max-width: 90%;
-     text-indent:30px
-    }
-    
-    .nome-tecnologias{ 
-     display: none;
-    }
-    
-    .contatos{
-    display: none;
-    }
-    
-    .contatos a{
-      text-decoration: none;
-      color: #707070;
-      transition: 200ms;
-    }
-    
-    #carousel{
-      max-width: 100%;
-    }
-    
-    .grid-mobile {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 0px 0px;
-        grid-template-areas:
-        "div1 div2 div2 div2"
-        "div3 div4 div4 div4"
-        "div5 div6 div6 div6"
-        "div7 div8 div8 div8";
-    }
-      
-      .div1 { grid-area: div1; }
-      
-      .div2 { grid-area: div2; }
-      
-      .div3 { grid-area: div3; }
-      
-      .div4 { grid-area: div4; }
-      
-      .div5 { grid-area: div5; }
-      
-      .div6 { grid-area: div6; }
-      
-      .div7 { grid-area: div7; }
-      
-      .div8 {
-      grid-area: div8;
-      background-color: #fdfdfd;
-     }
-
-
-     .popupLinks {
-      display: block;
-      text-align: center;
-      margin-top: -40px;
-    }
-    
-     .popupLinks a {
-      color:rgb(151, 151, 151);
-      background: #ececec;
-      border-radius:4px;
-      text-align:center;
-      text-decoration:none;
-      font-family:fontawesome, academicons;
-      display: inline-block;
-      width: 60px;
-      height: 30px;
-      padding-top:12px;
-      margin:0 2px;
-      transition: all 300ms;
-    } 
-    
-    .popupLinks a:hover {
-      background: rgb(189, 189, 189);
-      color: #fff;
-    }
-    
-    .popupLinks a span {
-      position:absolute;
-      visibility:hidden;
-    }
-    
-.popupLinks a:nth-of-type(1):before {
-content:'\f004';
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #ffffff;
 }
-.popupLinks a:nth-of-type(2):before {
-content:'\f006';
+
+#perfil {
+  border-radius: 50%;
+  margin: 25px auto;
+  width: 250px;
+  display: flex;
 }
-.popupLinks a:nth-of-type(3):before {
-content:'\e9b3';
+
+#nome {
+  font-size: 4rem;
+  color: #939393;
+  font-weight: 300;
+  text-align: center;
+  margin: -10px auto -10px;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.popupLinks a:nth-of-type(4):before {
-content:"\e9a5";
+
+#sobrenome {
+  font-size: 5.75rem;
+  color: #607d8b;
+  text-align: center;
+  margin-top: -10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.desktop {
+  display: none;
+}
+
+p {
+  color: #707070;
+}
+
+hr {
+  display: flex;
+  margin: 20px auto 10px;
+  border: 0.1px solid rgb(212, 212, 212);
+  max-width: 95%;
+}
+
+#hrTopo {
+  margin: -60px auto 10px;
+}
+
+.tituloLateral {
+  color: #727272;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtituloLateral {
+  display: none;
+}
+
+.wrapper-mobile div {
+  display: grid;
+  grid-template-rows: auto;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(114, 114, 114);
+  font-size: 1rem;
+  padding: 0.7rem 0.7rem 0rem;
+}
+
+.wrapper-mobile a, a:visited {
+  text-decoration: none;
+  color: #707070;
+  ;
+  transition: 200ms;
+}
+
+.rodape {
+  padding-bottom: 25px;
+}
+
+.titulo {
+  font-weight: 700;
+  color: #707070;
+}
+
+.apresentacao {
+  text-align: justify;
+  margin: 10px auto;
+  max-width: 90%;
+  text-indent: 30px
+}
+
+.nome-tecnologias {
+  display: none;
+}
+
+.contatos {
+  display: none;
+}
+
+.contatos a {
+  text-decoration: none;
+  color: #707070;
+  transition: 200ms;
+}
+
+#carousel {
+  max-width: 100%;
+}
+
+.grid-mobile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+  "div1 div2 div2 div2"
+  "div3 div4 div4 div4"
+  "div5 div6 div6 div6"
+  "div7 div8 div8 div8";
+}
+
+.div1 {grid-area: div1;}
+.div2 {grid-area: div2;}
+.div3 {grid-area: div3;}
+.div4 {grid-area: div4;}
+.div5 {grid-area: div5;}
+.div6 {grid-area: div6;}
+.div7 {grid-area: div7;}
+.div8 {
+  grid-area: div8;
+  background-color: #fdfdfd;
+}
+
+.popupLinks {
+  display: block;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.popupLinks a {
+  color: rgb(151, 151, 151);
+  background: #ececec;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: fontawesome, academicons;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  padding-top: 12px;
+  margin: 0 2px;
+  transition: all 300ms;
+}
+
+.popupLinks a:hover {
+  background: rgb(189, 189, 189);
+  color: #fff;
+}
+
+.popupLinks a span {
+  position: absolute;
+  visibility: hidden;
 }
