@@ -10,6 +10,7 @@ body {
   margin: 25px auto;
   width: 250px;
   display: flex;
+  image-rendering: pixelated
 }
 
 #nome {
@@ -125,6 +126,7 @@ hr {
   text-align: center;
   text-decoration: none;
   font-family: fontawesome, academicons;
+  font-size: 20px;
   display: inline-block;
   width: 60px;
   height: 30px;

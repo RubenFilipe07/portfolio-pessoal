@@ -101,6 +101,7 @@ table a:hover {
 .nome-tecnologias {
   text-align: center;
   margin-right: 15%;
+  margin-top: 0px;
   color: #727272;
   transition: 400ms;
   font-size: 18.72px;
@@ -182,17 +183,17 @@ div.popupLinks {
   color:rgb(146, 146, 146);
   position:absolute;
   font-family:sans-serif;
-  bottom:0;
-  left:-25px;
-  right:-25px;
-  padding:5px 7px;
-  z-index:-1;
+  bottom: 0;
+  left: -25px;
+  right: -25px;
+  padding: 5px 7px;
+  z-index: -1;
   border: 1px solid rgb(194, 194, 194);
-  font-size:14px;
-  border-radius:3px;
-  background:white;
-  visibility:hidden;
-  opacity:0;
+  font-size: 14px;
+  border-radius: 3px;
+  background: white;
+  visibility: hidden;
+  opacity: 0;
   transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 

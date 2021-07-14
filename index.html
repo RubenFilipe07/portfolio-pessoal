@@ -14,6 +14,8 @@
     <meta property="og:title" content="Rúben Filipe | Portfólio"/>    
     <meta name="image" property="og:image" content="https://rubenfilipe.me/imagens/preview.png">
     <meta property="og:type" content="website" />
+    <link rel="preload" as="font" crossorigin href="recursos/academicons/fonts/academicons.ttf"/>
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="recursos/fontawesome/fonts/fontawesomebrands-regular-webfont.woff2?v=1.0.0"/>
     <meta name="twitter:image:src" content="rubenfilipe.me/imagens/icone.png" />
     <link rel="dns-prefetch" href="https://www.google-analytics.com" />
     <script src="scripts/gtag.js"></script>
@@ -23,7 +25,7 @@
     <div class="grid">
        
         <div class="div1">
-            <img id="perfil" src="imagens/perfil.jpg" alt="Foto de perfil">
+            <img id="perfil" src="imagens/perfil.jpeg" width="250" height="250" alt="Foto de perfil">
         </div>
        
         <div class="div2">
@@ -31,10 +33,10 @@
             <h1 id="sobrenome">Filipe</h1>
     
              <div class="popupLinks">
-                <a href="https://www.linkedin.com/in/rubenfilipe07/" class="fa fa-linkedin-alt" aria-hidden="true" aria-label="linkedin" target="_blank" rel="noopener"><span>LinkedIn</span></a>
-                <a href="https://github.com/RubenFilipe07" class="fa fa-github" aria-hidden="true" aria-label="github" target="_blank" rel="noopener"><span>Github</span></a>
-                <a href="http://lattes.cnpq.br/6391662114404047" class="ai ai-lattes" aria-hidden="true" aria-label="lattes" target="_blank" rel="noopener"><span>Lattes</span></a>
-                <a href="curriculo.html" class="ai ai-cv" aria-hidden="true" aria-label="currículo" target="_blank" rel="noopener"><span>Currículo</span></a>
+                <a href="https://www.linkedin.com/in/rubenfilipe07/" class="fa fa-linkedin-alt" aria-label="linkedin" target="_blank" rel="noopener"><span>LinkedIn</span></a>
+                <a href="https://github.com/RubenFilipe07" class="fa fa-github" aria-label="github" target="_blank" rel="noopener"><span>Github</span></a>
+                <a href="http://lattes.cnpq.br/6391662114404047" class="ai ai-lattes" aria-label="lattes" target="_blank" rel="noopener"><span>Lattes</span></a>
+                <a href="curriculo.html" class="ai ai-cv" aria-label="currículo" target="_blank" rel="noopener"><span>Currículo</span></a>
               </div>
 
             <hr>
@@ -81,91 +83,91 @@
             <div id="carousel" class="owl-carousel owl-theme">
     
                 <div class="item">
-                    <img src="imagens/logos/java.png" alt="Java" onmouseover="mostrarNome('Java')"
+                    <img class="owl-lazy" data-src="imagens/logos/java.png"  alt="Java" onmouseover="mostrarNome('Java')"
+                        onmouseout="limparNome()"> 
+                </div>
+    
+                <div class="item">
+                    <img class="owl-lazy" data-src="imagens/logos/javascript.png" alt="Javascript" onmouseover="mostrarNome('Javascript')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/javascript.png" alt="Javascript" onmouseover="mostrarNome('Javascript')"
+                    <img class="owl-lazy" data-src="imagens/logos/cplusplus.png" alt="C++" onmouseover="mostrarNome('C++')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/cplusplus.png" alt="C++" onmouseover="mostrarNome('C++')"
+                    <img class="owl-lazy" data-src="imagens/logos/jquery.png" alt="jquery" onmouseover="mostrarNome('Jquery')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/jquery.png" alt="jquery" onmouseover="mostrarNome('Jquery')"
+                    <img class="owl-lazy" data-src="imagens/logos/mysql.png" alt="MySql" onmouseover="mostrarNome('MySql')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/mysql.png" alt="MySql" onmouseover="mostrarNome('MySql')"
+                    <img class="owl-lazy" data-src="imagens/logos/html5.png" alt="Html5" onmouseover="mostrarNome('Html5')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/html5.png" alt="Html5" onmouseover="mostrarNome('Html5')"
-                        onmouseout="limparNome()">
-                </div>
-    
-                <div class="item">
-                    <img src="imagens/logos/css3.png" alt="Css3" onmouseover="mostrarNome('Css3')"
+                    <img class="owl-lazy" data-src="imagens/logos/css3.png" alt="Css3" onmouseover="mostrarNome('Css3')"
                         onmouseout="limparNome()">
                 </div>
 
                 <div class="item">
-                    <img src="imagens/logos/react.png" alt="React" onmouseover="mostrarNome('React.js')"
+                    <img class="owl-lazy" data-src="imagens/logos/react.png" alt="React" onmouseover="mostrarNome('React.js')"
                         onmouseout="limparNome()">
                 </div>
 
                 <div class="item">
-                    <img src="imagens/logos/sass.png" alt="Sass" onmouseover="mostrarNome('Sass')"
+                    <img class="owl-lazy" data-src="imagens/logos/sass.png" alt="Sass" onmouseover="mostrarNome('Sass')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/bootstrap.png" alt="Bootstrap" onmouseover="mostrarNome('Bootstrap')"
+                    <img class="owl-lazy" data-src="imagens/logos/bootstrap.png" alt="Bootstrap" onmouseover="mostrarNome('Bootstrap')"
                         onmouseout="limparNome()">
                 </div>
 
                 <div class="item">
-                    <img src="imagens/logos/materialize.png" alt="Materialize Css" onmouseover="mostrarNome('Materialize Css')"
+                    <img class="owl-lazy" data-src="imagens/logos/materialize.png" alt="Materialize Css" onmouseover="mostrarNome('Materialize Css')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/spring.png" alt="Spring" onmouseover="mostrarNome('Spring')"
+                    <img class="owl-lazy" data-src="imagens/logos/spring.png" alt="Spring" onmouseover="mostrarNome('Spring')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/firebase.png" alt="Firebase" onmouseover="mostrarNome('Firebase')"
+                    <img class="owl-lazy" data-src="imagens/logos/firebase.png" alt="Firebase" onmouseover="mostrarNome('Firebase')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/heroku.png" alt="Heroku" onmouseover="mostrarNome('Heroku')"
+                    <img class="owl-lazy" data-src="imagens/logos/heroku.png" alt="Heroku" onmouseover="mostrarNome('Heroku')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/git.png" alt="Git" onmouseover="mostrarNome('Git')" onmouseout="limparNome()">
+                    <img class="owl-lazy" data-src="imagens/logos/git.png" alt="Git" onmouseover="mostrarNome('Git')" onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/github.png" alt="Github" onmouseover="mostrarNome('Github')"
+                    <img class="owl-lazy" data-src="imagens/logos/github.png" alt="Github" onmouseover="mostrarNome('Github')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/arduino.png" alt="Arduino" onmouseover="mostrarNome('Arduino')"
+                    <img class="owl-lazy" data-src="imagens/logos/arduino.png" alt="Arduino" onmouseover="mostrarNome('Arduino')"
                         onmouseout="limparNome()">
                 </div>
     
                 <div class="item">
-                    <img src="imagens/logos/espressif.png" alt="Espressif" onmouseover="mostrarNome('Espressif')"
+                    <img class="owl-lazy" data-src="imagens/logos/espressif.png" alt="Espressif" onmouseover="mostrarNome('Espressif')"
                         onmouseout="limparNome()">
                 </div>
             </div>
@@ -218,12 +220,12 @@
                 </div>
         </div>
         
-<script defer src="recursos/Jquery/jquery-3.6.0.min.js"></script>
-<script defer src="recursos/OwlCarousel2/owl.carousel.min.js"></script>
-<script defer src="recursos/OwlCarousel2/carousel.js"></script>
-<link rel="stylesheet" href="recursos/OwlCarousel2/owl.carousel.min.css">
-<link rel="stylesheet" href="recursos/OwlCarousel2/owl.theme.default.min.css"/>
-<link rel="stylesheet" href="recursos/academicons/css/academicons.min.css">
-<link rel="stylesheet" href="recursos/fontawesome/css/font-awesome.min.css">
+    <script defer src="recursos/Jquery/jquery-3.6.0.min.js"></script>
+    <script defer src="recursos/OwlCarousel2/owl.carousel.min.js"></script>
+    <script defer src="recursos/OwlCarousel2/carousel.js"></script>
+    <link rel="stylesheet" href="recursos/OwlCarousel2/owl.carousel.min.css">
+    <link rel="stylesheet" href="recursos/OwlCarousel2/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="recursos/academicons/css/academicons.min.css">
+    <link rel="stylesheet" href="recursos/fontawesome/css/font-awesome.min.css">
 </body>
 </html>
