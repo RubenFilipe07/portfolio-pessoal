@@ -116,12 +116,13 @@ table a:hover {
 
 #carousel {
   max-width: 800px;
+  margin-top: 10px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 3fr 7fr repeat(3, 0);
-  grid-template-rows: 1fr 0.5fr 0.4fr 0.35fr;
+  grid-template-rows: 1fr 0.5fr 0.45fr 0.35fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
