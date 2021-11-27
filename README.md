@@ -1,7 +1,7 @@
 # portfolio-pessoal
 
 <h2>Link</h2>
-<a href="rubenfilipe.me">rubenfilipe.me</a>
+<a href="rubenfilipe07.me">rubenfilipe.me</a>
 
 <h2>Pontuação no lighthouse</h2>
 <img src="https://user-images.githubusercontent.com/53026536/126054587-9c0aa5c8-8bc0-4775-9ea1-f2ef595451be.png" alt="Lighthouse">

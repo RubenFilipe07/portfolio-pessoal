@@ -75,8 +75,6 @@ hr {
 .wrapper-mobile a, a:visited {
   text-decoration: none;
   color: #707070;
-  ;
-  transition: 200ms;
 }
 
 .rodape {
@@ -106,7 +104,6 @@ hr {
 .contatos a {
   text-decoration: none;
   color: #707070;
-  transition: 200ms;
 }
 
 #carousel {
@@ -132,7 +129,6 @@ hr {
   height: 30px;
   padding-top: 12px;
   margin: 0 2px;
-  transition: all 300ms;
 }
 
 .popupLinks a:hover {
